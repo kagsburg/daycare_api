@@ -1,4 +1,5 @@
-
+# The Usecases are the application specific business rules. They are the glue between the core entities and the repositories. 
+# They are the entry point to the domain layer.
 from app.core.User import User
 
 class RegisterUser:

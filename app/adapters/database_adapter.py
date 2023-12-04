@@ -1,4 +1,4 @@
-
+# the adapter is a class that implements the port interface and is responsible for the communication with the external system
 
 class DatabaseAdapter:
     def __init__(self, db_url: str):

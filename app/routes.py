@@ -1,7 +1,7 @@
 from app import app
 from flask import Flask, request, jsonify
 from app.use_cases.RegisterUser import RegisterUser
-from app.adapters.database import DatabsePort
+from app.adapters.database_adapter import DatabsePort
 from app.adapters.User_repository import UserRepository
 
 database_adapter = DatabsePort()
