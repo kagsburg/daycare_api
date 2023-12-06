@@ -5,7 +5,9 @@ from app.adapters.database_adapter import DatabsePort
 from app.adapters.User_repository import UserRepository
 
 database_adapter = DatabsePort()
-@app.route("/register", methods=["POST"])
+# @app.route("/register", methods=["POST"])
+class RegisterUsers:
+    pass
 def register_user():
     user = request.get_json()
     user_repo = UserRepository(database_adapter)
